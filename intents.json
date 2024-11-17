@@ -1,0 +1,785 @@
+{
+  "intents": [
+    
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello there",
+        "Hi there",
+        "Greetings",
+        "Howdy",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! What can I do for you?",
+        "Greetings! How may I help you?",
+        "Howdy! What brings you here today?",
+        "Good morning! How can I make your day better?",
+        "Good afternoon! How may I assist you today?"
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["Goodbye", "Farewell", "Take care", "See you"],
+      "responses": [
+        "Goodbye! Have a wonderful day!",
+        "Farewell! Come back soon.",
+        "Take care! See you next time.",
+        "See you later! Thanks for visiting.",
+        "Bye! Hope to see you again soon."
+      ]
+    },
+    {
+      "tag": "gratitude",
+      "patterns": ["Thank you so much", "Thanks a lot", "I appreciate it", "Much obliged"],
+      "responses": [
+        "You're very welcome!",
+        "Happy to help!",
+        "Glad I could assist!",
+        "Anytime! My pleasure.",
+        "You're welcome! Always here to help."
+      ]
+    },
+    {
+      "tag": "products",
+      "patterns": [
+        "What products do you offer?",
+        "What's available in your store?",
+        "What can I buy here?",
+        "What do you have in stock?"
+      ],
+      "responses": [
+        "We offer a variety of coffee and tea.",
+        "Our store has a wide range of coffee and tea options.",
+        "You can buy different types of coffee and tea here.",
+        "We have a great selection of coffee and tea for you."
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "Can I pay with credit card?",
+        "What payment methods do you accept?",
+        "Is PayPal an option?",
+        "Can I use my credit card?"
+      ],
+      "responses": [
+        "Yes, we accept credit cards and PayPal.",
+        "You can pay with VISA, Mastercard, or PayPal.",
+        "We accept major credit cards and PayPal.",
+        "Payment options include VISA, Mastercard, and PayPal."
+      ]
+    },
+    {
+      "tag": "shipping_info",
+      "patterns": [
+        "How fast is delivery?",
+        "What are your shipping times?",
+        "When will my order arrive?",
+        "How long does it take to get my order?"
+      ],
+      "responses": [
+        "Delivery usually takes 2-4 days.",
+        "Shipping times are typically 2-4 days.",
+        "Your order should arrive within 2-4 days.",
+        "Expect your delivery in about 2-4 days."
+      ]
+    },
+    {
+      "tag": "humor",
+      "patterns": [
+        "Tell me something funny",
+        "Can you share a joke?",
+        "Make me laugh",
+        "Do you know any jokes?"
+      ],
+      "responses": [
+        "Why did the scarecrow win an award? Because he was outstanding in his field.",
+        "What do you call fake spaghetti? An impasta!",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "Why did the math book look sad? Because it had too many problems.",
+        "Why did the bicycle fall over? Because it was two-tired!"
+      ]
+    },
+    
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Is it going to rain today?",
+        "What's the forecast?",
+        "How's the weather?"
+      ],
+      "responses": [
+        "The weather is great today!",
+        "It looks like it's going to be sunny.",
+        "Expect some rain later in the day.",
+        "The forecast shows clear skies."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "Where can I find you?",
+        "Where is your store?"
+      ],
+      "responses": [
+        "We are located at 123 Main Street.",
+        "Our address is 123 Main Street.",
+        "You can find us at 123 Main Street.",
+        "We are at 123 Main Street."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "What time do you close?",
+        "When do you open?"
+      ],
+      "responses": [
+        "We are open from 9 AM to 9 PM every day.",
+        "Our hours are 9 AM to 9 PM, seven days a week.",
+        "We open at 9 AM and close at 9 PM daily.",
+        "You can visit us from 9 AM to 9 PM any day."
+      ]
+    },
+    {
+      "tag": "customer_service",
+      "patterns": [
+        "I need help",
+        "Can I speak to customer service?",
+        "I have an issue",
+        "Customer support, please"
+      ],
+      "responses": [
+        "How can I assist you today?",
+        "Sure, I'm here to help. What's the problem?",
+        "Please tell me your issue and I'll do my best to assist.",
+        "Customer service here! What do you need help with?"
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does this cost?",
+        "What's the price of this item?",
+        "Can you tell me the price?",
+        "What does this cost?"
+      ],
+      "responses": [
+        "This item costs $20.",
+        "The price of this item is $20.",
+        "It costs $20.",
+        "This one is priced at $20."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "What's the status of my order?",
+        "Has my order shipped?",
+        "When will my order arrive?"
+      ],
+      "responses": [
+        "Your order is on the way!",
+        "You can expect your order to arrive soon.",
+        "Your order has been shipped and is on its way.",
+        "Your order should arrive within the next few days."
+      ]
+    },
+    {
+      "tag": "returns",
+      "patterns": [
+        "How do I return an item?",
+        "What is your return policy?",
+        "Can I return this?",
+        "I want to return something"
+      ],
+      "responses": [
+        "You can return items within 30 days of purchase.",
+        "Our return policy allows for returns within 30 days.",
+        "Yes, you can return items within 30 days of buying them.",
+        "Items can be returned within 30 days of purchase for a full refund."
+      ]
+    },
+    {
+      "tag": "recommendations",
+      "patterns": [
+        "Can you recommend something?",
+        "What do you suggest?",
+        "Do you have any recommendations?",
+        "What's a good choice?"
+      ],
+      "responses": [
+        "I recommend trying our special blend coffee.",
+        "You might like our herbal teas.",
+        "Our most popular item is the espresso.",
+        "How about trying our chai latte?"
+      ]
+    },
+  
+  
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?",
+        "Hey, nice to see you!",
+        "Hello! How are you doing today?",
+        "Hi! What brings you here?",
+        "Good day! How can I assist you?",
+        "Hey there! How may I assist you today?",
+        "Hello! How can I make your day better?",
+        "Greetings! What can I do for you?",
+        "Hi there! Nice to see you!",
+        "Hey! How's it going?"
+      ]
+    },
+    
+    {
+      "tag": "definitions",
+      "patterns": [
+        "What does [word] mean?",
+        "Define [word]",
+        "What is the definition of [word]?",
+        "Explain the meaning of [word]"
+      ],
+      "responses": [
+        "[word] means [definition].",
+        "The definition of [word] is [definition].",
+        "To define [word], it means [definition].",
+        "[word]: [definition]."
+      ]
+    },
+    {
+      "tag": "synonyms",
+      "patterns": [
+        "What are synonyms for [word]?",
+        "Give me synonyms for [word]",
+        "What words mean the same as [word]?",
+        "Similar words to [word]"
+      ],
+      "responses": [
+        "Some synonyms for [word] are [synonym1], [synonym2], and [synonym3].",
+        "[word] can be replaced with [synonym1], [synonym2], or [synonym3].",
+        "Synonyms for [word] include [synonym1], [synonym2], and [synonym3].",
+        "Words similar to [word] are [synonym1], [synonym2], and [synonym3]."
+      ]
+    },
+    {
+      "tag": "antonyms",
+      "patterns": [
+        "What are antonyms for [word]?",
+        "Give me antonyms for [word]",
+        "What words mean the opposite of [word]?",
+        "Opposite words for [word]"
+      ],
+      "responses": [
+        "Antonyms for [word] are [antonym1], [antonym2], and [antonym3].",
+        "The opposite of [word] includes [antonym1], [antonym2], and [antonym3].",
+        "Words that are antonyms of [word] are [antonym1], [antonym2], and [antonym3].",
+        "Some antonyms for [word] are [antonym1], [antonym2], and [antonym3]."
+      ]
+    },
+    {
+      "tag": "spelling",
+      "patterns": [
+        "How do you spell [word]?",
+        "What's the spelling of [word]?",
+        "Spell [word]",
+        "Can you spell [word] for me?"
+      ],
+      "responses": [
+        "[word] is spelled [s-p-e-l-l-i-n-g].",
+        "The spelling of [word] is [s-p-e-l-l-i-n-g].",
+        "You spell [word] as [s-p-e-l-l-i-n-g].",
+        "[word]: [s-p-e-l-l-i-n-g]."
+      ]
+    },
+    {
+      "tag": "grammar",
+      "patterns": [
+        "Is this sentence correct?",
+        "Check the grammar for me",
+        "Is this grammatically correct?",
+        "Fix the grammar in this sentence"
+      ],
+      "responses": [
+        "The sentence is correct.",
+        "There is a grammatical error in your sentence.",
+        "This is how you can fix it: [corrected sentence].",
+        "Your sentence should be: [corrected sentence]."
+      ]
+    },
+    {
+      "tag": "usage",
+      "patterns": [
+        "How do you use [word] in a sentence?",
+        "Can you give me a sentence with [word]?",
+        "Show me how to use [word] in a sentence",
+        "Example sentence with [word]"
+      ],
+      "responses": [
+        "Here is a sentence with [word]: [example sentence].",
+        "You can use [word] like this: [example sentence].",
+        "An example of [word] in a sentence is: [example sentence].",
+        "[word] is used in this sentence: [example sentence]."
+      ]
+    },
+    {
+      "tag": "pronunciation",
+      "patterns": [
+        "How do you pronounce [word]?",
+        "Pronounce [word]",
+        "Can you tell me how to say [word]?",
+        "What's the pronunciation of [word]?"
+      ],
+      "responses": [
+        "[word] is pronounced [pronunciation].",
+        "You pronounce [word] as [pronunciation].",
+        "The pronunciation of [word] is [pronunciation].",
+        "To say [word], you pronounce it [pronunciation]."
+      ]
+    },
+    {
+      "tag": "recipe_search",
+      "patterns": [
+        "Can you find me a recipe for spaghetti?",
+        "What's a good recipe for chicken curry?",
+        "How do I make chocolate cake?",
+        "Do you have a recipe for lasagna?"
+      ],
+      "responses": [
+        "Sure, here's a great recipe for spaghetti.",
+        "I found a delicious chicken curry recipe for you.",
+        "Here's a recipe for a delicious chocolate cake.",
+        "Try this lasagna recipe, it's a hit!"
+      ]
+    },
+    {
+      "tag": "ingredient_substitution",
+      "patterns": [
+        "What can I use instead of eggs?",
+        "Can I substitute milk with almond milk?",
+        "What can replace sugar in a recipe?",
+        "Is there a substitute for butter?"
+      ],
+      "responses": [
+        "You can use applesauce as a substitute for eggs.",
+        "Yes, you can use almond milk instead of regular milk.",
+        "Honey can be a good substitute for sugar.",
+        "You can replace butter with coconut oil."
+      ]
+    },
+    {
+      "tag": "cooking_tips",
+      "patterns": [
+        "Do you have any cooking tips?",
+        "How can I improve my baking skills?",
+        "Any tips for making perfect pasta?",
+        "How do I keep vegetables from getting soggy?"
+      ],
+      "responses": [
+        "Sure, always measure your ingredients precisely.",
+        "To improve your baking skills, practice regularly and follow recipes closely.",
+        "For perfect pasta, make sure to salt the water generously.",
+        "To keep vegetables from getting soggy, don't overcrowd the pan when cooking."
+      ]
+    },
+    {
+      "tag": "meal_planning",
+      "patterns": [
+        "Can you help me plan meals for the week?",
+        "What should I cook for dinner?",
+        "I need ideas for meal prep.",
+        "Can you suggest a meal plan?"
+      ],
+      "responses": [
+        "Sure, here's a meal plan for the week.",
+        "How about trying a stir-fry for dinner?",
+        "For meal prep, you can make a big batch of soup and freeze portions.",
+        "I suggest a meal plan that includes a variety of proteins and vegetables."
+      ]
+    },
+    {
+      "tag": "dietary_restrictions",
+      "patterns": [
+        "Do you have gluten-free recipes?",
+        "I'm lactose intolerant, what can I cook?",
+        "What are some good vegan dishes?",
+        "Can you suggest low-carb meals?"
+      ],
+      "responses": [
+        "Yes, here's a great gluten-free recipe.",
+        "For lactose intolerance, you can try making dairy-free dishes like stir-fried vegetables.",
+        "How about trying a vegan chickpea curry?",
+        "Here are some delicious low-carb meal ideas."
+      ]
+    },
+    {
+      "tag": "cooking_techniques",
+      "patterns": [
+        "How do I sauté vegetables?",
+        "Can you teach me how to poach an egg?",
+        "What's the best way to grill chicken?",
+        "How do I make a roux?"
+      ],
+      "responses": [
+        "To sauté vegetables, heat some oil in a pan and cook the vegetables over medium-high heat until tender.",
+        "To poach an egg, bring a pot of water to a gentle simmer, crack the egg into a small bowl, and gently slide it into the water.",
+        "For grilling chicken, marinate the chicken and cook it on a preheated grill until the internal temperature reaches 165°F.",
+        "To make a roux, melt butter in a pan, add flour, and cook, stirring constantly, until it reaches your desired color."
+      ]
+    },
+    {
+      "tag": "recipe_sharing",
+      "patterns": [
+        "Can I share a recipe with you?",
+        "I have a great recipe to share.",
+        "How do I submit a recipe?",
+        "I want to share my favorite dish."
+      ],
+      "responses": [
+        "Sure, I'd love to hear your recipe!",
+        "Please share your recipe, I'm excited to try it.",
+        "You can submit your recipe here.",
+        "I'd love to hear about your favorite dish, please share!"
+      ]
+    },
+    {
+      "tag": "kitchen_equipment",
+      "patterns": [
+        "What's the best blender for smoothies?",
+        "Do I need a food processor?",
+        "What kind of knife should I buy?",
+        "Can you recommend a good mixer?"
+      ],
+      "responses": [
+        "For smoothies, I recommend a high-speed blender like the Vitamix.",
+        "A food processor is great for chopping and pureeing ingredients.",
+        "A chef's knife is versatile and a great investment.",
+        "The KitchenAid stand mixer is highly recommended for baking."
+      ]
+    },
+    {
+      "tag": "cooking_troubleshooting",
+      "patterns": [
+        "Why is my cake not rising?",
+        "How do I fix a salty soup?",
+        "Why is my pasta sticky?",
+        "My sauce is too thin, what should I do?"
+      ],
+      "responses": [
+        "Your cake might not be rising because of expired baking powder or soda.",
+        "To fix a salty soup, you can add a raw potato to absorb some of the salt.",
+        "Sticky pasta is often caused by not enough water or not stirring during cooking.",
+        "To thicken your sauce, you can simmer it longer or add a cornstarch slurry."
+      ]
+    },
+    {
+      "tag": "food_storage",
+      "patterns": [
+        "How do I store fresh herbs?",
+        "What's the best way to keep leftovers?",
+        "Can I freeze cooked rice?",
+        "How long can I keep chicken in the fridge?"
+      ],
+      "responses": [
+        "Store fresh herbs in a glass of water in the fridge, covered loosely with a plastic bag.",
+        "Leftovers should be stored in airtight containers in the fridge.",
+        "Yes, you can freeze cooked rice. Let it cool completely before freezing.",
+        "Cooked chicken can be kept in the fridge for up to 4 days."
+      ]
+    },
+    {
+      "tag": "nutritional_information",
+      "patterns": [
+        "How many calories are in this dish?",
+        "What's the nutritional value of broccoli?",
+        "Is this recipe healthy?",
+        "Can you provide nutritional info for this meal?"
+      ],
+      "responses": [
+        "This dish has approximately 500 calories.",
+        "Broccoli is high in fiber and vitamins C and K.",
+        "This recipe is healthy, it's low in fat and high in protein.",
+        "Here's the nutritional info: 200 calories, 10g protein, 15g carbs, 8g fat."
+      ]
+    },
+    {
+      "tag": "flavor_pairing",
+      "patterns": [
+        "What goes well with chicken?",
+        "Can you suggest flavors to pair with basil?",
+        "What should I serve with fish?",
+        "What flavors complement chocolate?"
+      ],
+      "responses": [
+        "Chicken pairs well with garlic, lemon, and rosemary.",
+        "Basil goes great with tomatoes, mozzarella, and balsamic vinegar.",
+        "Serve fish with lemon, dill, and capers.",
+        "Chocolate pairs well with coffee, raspberry, and mint."
+      ]
+    },
+    {
+      "tag": "etymology",
+      "patterns": [
+        "What's the origin of [word]?",
+        "Where does [word] come from?",
+        "Tell me the history of [word]",
+        "Etymology of [word]"
+      ],
+      "responses": [
+        "The word [word] originates from [origin].",
+        "[word] comes from [origin].",
+        "The history of [word] is [origin].",
+        "[word] has its roots in [origin]."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Take care!",
+        "Goodbye! Have a great day!",
+        "Until next time!",
+        "Bye bye! Have a wonderful day!",
+        "Farewell! Come back soon!",
+        "Catch you later!",
+        "See you soon!",
+        "Adios!",
+        "Bye for now!",
+        "Take it easy!",
+        "Have a good one!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "You're welcome!",
+        "Glad I could assist!",
+        "I'm here to help!",
+        "It was my pleasure!",
+        "No problem!",
+        "You got it!",
+        "Don't mention it!",
+        "That's what I'm here for!",
+        "You're most welcome!",
+        "It's my pleasure to assist you!"
+      ]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea.",
+        "We have coffee and tea.",
+        "Our selection includes coffee and tea.",
+        "We offer a variety of coffee and tea.",
+        "You can find coffee and tea here.",
+        "We have a range of coffee and tea options.",
+        "Our menu includes a variety of coffees and teas.",
+        "We specialize in coffee and tea."
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard, and Paypal.",
+        "We accept most major credit cards and Paypal.",
+        "You can pay with VISA, Mastercard, or Paypal.",
+        "We accept credit cards and Paypal payments.",
+        "We accept VISA, Mastercard, and Paypal. Cash is also accepted.",
+        "We support VISA, Mastercard, Paypal, and cash.",
+        "Payment methods include VISA, Mastercard, and Paypal.",
+        "We accept VISA, Mastercard, Paypal, and other major credit cards."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery typically takes 2-4 days.",
+        "Shipping usually takes 2-4 days.",
+        "Your order should arrive in 2-4 days.",
+        "Most deliveries are completed within 2-4 days.",
+        "You can expect your delivery in 2-4 days.",
+        "Delivery times are usually 2-4 days.",
+        "Shipping times are generally 2-4 days.",
+        "Your delivery will arrive in 2-4 days."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "I told my wife she should embrace her mistakes. She gave me a hug.",
+        "Parallel lines have so much in common. It’s a shame they’ll never meet.",
+        "I'm reading a book on anti-gravity. It's impossible to put down!",
+        "I used to play piano by ear, but now I use my hands like everyone else.",
+        "I'm trying to organize a hide and seek tournament, but good players are really hard to find.",
+        "I'm reading a book about anti-gravity. It's impossible to put down!",
+        "I told my computer I needed a break and now it won't stop throwing up pop-ups.",
+        "What do you call fake spaghetti? An impasta!",
+        "I asked the librarian if the library had any books on paranoia. She whispered, 'They're right behind you.'",
+        "I'm writing a book. I've got the page numbers done; now I just need to fill in the rest."
+      ]
+    }
+    ,{
+      "tag": "menu",
+      "patterns": [
+        "What's on the menu?",
+        "What do you have on your menu?",
+        "Can I see the menu?",
+        "What food do you offer?"
+      ],
+      "responses": [
+        "Our menu includes a variety of sandwiches, salads, and desserts.",
+        "We offer sandwiches, salads, and desserts on our menu.",
+        "You can find sandwiches, salads, and desserts on our menu.",
+        "Our menu features sandwiches, salads, and desserts.",
+        "We have a selection of sandwiches, salads, and desserts."
+      ]
+    },
+    {
+      "tag": "specials",
+      "patterns": [
+        "Do you have any specials?",
+        "What are today's specials?",
+        "Are there any special offers?",
+        "Any specials today?"
+      ],
+      "responses": [
+        "Today's specials include a grilled chicken sandwich and a Caesar salad.",
+        "We have a grilled chicken sandwich and a Caesar salad as today's specials.",
+        "Our specials today are a grilled chicken sandwich and a Caesar salad.",
+        "You can enjoy a grilled chicken sandwich and a Caesar salad as today's specials.",
+        "Today's special offers are a grilled chicken sandwich and a Caesar salad."
+      ]
+    },
+    {
+      "tag": "dietary_restrictions",
+      "patterns": [
+        "Do you have gluten-free options?",
+        "Do you offer vegetarian dishes?",
+        "Are there vegan options?",
+        "What options do you have for dietary restrictions?"
+      ],
+      "responses": [
+        "We have gluten-free, vegetarian, and vegan options available.",
+        "Our menu includes gluten-free, vegetarian, and vegan dishes.",
+        "You can choose from our gluten-free, vegetarian, and vegan options.",
+        "We offer a variety of dishes to accommodate dietary restrictions, including gluten-free, vegetarian, and vegan options.",
+        "Yes, we have several gluten-free, vegetarian, and vegan choices on our menu."
+      ]
+    },
+    {
+      "tag": "popular_dishes",
+      "patterns": [
+        "What are your popular dishes?",
+        "What do people usually order?",
+        "What are the best sellers?",
+        "Which dishes are popular?"
+      ],
+      "responses": [
+        "Our popular dishes include the classic cheeseburger, Caesar salad, and chocolate lava cake.",
+        "Customers often order the classic cheeseburger, Caesar salad, and chocolate lava cake.",
+        "The best sellers on our menu are the classic cheeseburger, Caesar salad, and chocolate lava cake.",
+        "Some of our popular dishes are the classic cheeseburger, Caesar salad, and chocolate lava cake.",
+        "People usually order the classic cheeseburger, Caesar salad, and chocolate lava cake."
+      ]
+    },
+    {
+      "tag": "ingredients",
+      "patterns": [
+        "What ingredients are in the Caesar salad?",
+        "Can you tell me what's in the chicken sandwich?",
+        "What are the ingredients of the vegan burger?",
+        "What is in the pasta primavera?"
+      ],
+      "responses": [
+        "Our Caesar salad includes romaine lettuce, croutons, Parmesan cheese, and Caesar dressing.",
+        "The chicken sandwich contains grilled chicken breast, lettuce, tomato, and mayo on a brioche bun.",
+        "The vegan burger is made with a plant-based patty, lettuce, tomato, pickles, and vegan mayo.",
+        "Pasta primavera includes penne pasta, mixed vegetables, and a light garlic sauce."
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "Do you have nut-free options?",
+        "Are there any dishes without dairy?",
+        "Can you accommodate shellfish allergies?",
+        "What options are there for people with food allergies?"
+      ],
+      "responses": [
+        "We offer several nut-free, dairy-free, and shellfish-free options.",
+        "Our menu includes dishes that are nut-free, dairy-free, and safe for those with shellfish allergies.",
+        "You can find nut-free, dairy-free, and shellfish-free options on our menu.",
+        "We can accommodate food allergies with our nut-free, dairy-free, and shellfish-free dishes.",
+        "Yes, we have options for people with nut, dairy, and shellfish allergies."
+      ]
+    },
+    {
+      "tag": "recommendations",
+      "patterns": [
+        "What do you recommend?",
+        "Can you suggest a dish?",
+        "What should I try?",
+        "What would you recommend for a first-time visitor?"
+      ],
+      "responses": [
+        "I recommend trying our classic cheeseburger or Caesar salad for a great meal.",
+        "You might enjoy our popular chocolate lava cake for dessert.",
+        "Our grilled chicken sandwich and vegan burger are highly recommended.",
+        "For a first-time visitor, I'd suggest the classic cheeseburger or pasta primavera.",
+        "You should try our Caesar salad or chocolate lava cake; they're customer favorites."
+      ]
+    }
+  ]
+}
